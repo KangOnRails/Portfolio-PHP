@@ -1,7 +1,7 @@
 @font-face {
-	font-family: 'Robot';
-	src: url('fonts/MrRobot.woff') format('woff'),
-       url('fonts/MrRobot.ttf') format('truetype');
+	font-family: 'Anurati';
+	src: url('Anurati-Regular.otf') format('otf'),
+    font-weight: normal;
 }
 
 html, body {
@@ -18,7 +18,7 @@ header {
 		rgba(0,0,0,.7),
 		rgba(0,0,0,.9)
 	 ),
-	url(img/codecode.jpg);
+	url(img/codecode.jpg) fixed;
 	background-size: cover;
 }
 
@@ -81,6 +81,8 @@ h4, h2 {
 .header-text {
 	font-size: 250px;
 	color: rgba(0,0,255,.4);
+	font-family: 'Anurati', sans-serif;
+	font-weight: normal;
 }
 
 .typed-curse-text {

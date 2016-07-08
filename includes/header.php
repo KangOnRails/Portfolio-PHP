@@ -10,13 +10,13 @@
 		<div class="all-header-text">
 		<h2 class="typed-curse-text" id="cursing"></h2>
 			<h1 class="header-text">PORTFOLIO</h1>
-			
+
 				<div class="Kicker-div">
 					<h4 class="kicker">
 					<span> {Developer} </span>
-					<span class="ampersands">&&</span>
+					<span class="ampersands">&amp;&amp;</span>
 					<span> {Designer} </span>
-					<span class="ampersands">&&</span>
+					<span class="ampersands">&amp;&amp;</span>
 					<span> {Hacker}</span></h4>
 				</div><!-- End Of Kicker Div -->
 		</div> <!-- End of All-Header-Text -->

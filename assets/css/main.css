@@ -1,6 +1,11 @@
 @import url("header.css");
 @import url('footer.css');
 
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('Zero.ttf') format('truetype'),
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -26,4 +31,56 @@ body {
 	border-radius: 50%;
 
 
+}
+
+
+/* ABOUT PAGE */
+
+.section1 {
+	position: relative;
+	height: 550px;
+	width: 100%;
+	border: red 3px solid;
+	background: url(img/dark-blurred.jpg) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+
+	
+}
+
+.section2 {
+	position: relative;
+	z-index: 2;
+/*	background: black;*/
+	border: green 3px solid;
+
+
+}
+
+.fore-kang {
+	position: relative;
+	z-index: 1;
+	background: url('Kang-SL-Studio.png') no-repeat;
+	height: 650px;
+	left: -250px;
+	top: 300px;
+
+}
+
+/*.bubble {
+	position: relative;
+	background: url("Word-Bubbleborder.png") no-repeat;
+	height: 325px;
+	bottom: 125%;
+	left: 450px;
+}*/
+
+.about-me {
+	color: green;
+	position: relative;
+	background: url('About-Me.svg') no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 100%;
 }
